@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+   font-family: 'Quicksand',sans-serif;
+  background-image: url(Background.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+header {
+   display: inline;
+
+}
+nav a{
+   font-size: 18px;
+   font-weight: 450;
+   text-decoration: none;
+   color: white;
+
+}
+nav a:hover {
+   font-weight: bold;
+}
+header {
+   text-align: center;
+
+}
+.jumbotron {
+   font-size: 18px;
+   padding: 40px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+ }
+
+.dropdown{
+     position:relative;
+   }
+   .dropdown-content{
+     text-align: left;
+     text-decoration: none;
+     display: none;
+     position: absolute;
+     background-color: rgba(0, 0, 0, 0.5);
+     border-left: 4px solid transparent;
+     width:222px;
+     margin-left: 70px;
+     z-index: 1;
+
+   }
+   .dropdown:hover .dropdown-content{
+     display: block;
+     border-left: 6px solid #00a2c6;
+
+   }
+
+
+.nav {
+
+   background-color: #00a2c6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
