@@ -163,7 +163,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', end
 
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
   .row{
     display: block;
   }
@@ -180,12 +180,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', end
     padding: 0px;
   }
   .blockmenu{
-    width: 80%;
+    width: 70%;
     height: 150px;
+    margin-left: 10%;
+
   }
   .iconmenu{
     width: 100%;
-    height: 110px;
+    height: 120px;
     overflow: hidden;
   }
   .block{
