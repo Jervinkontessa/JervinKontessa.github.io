@@ -163,7 +163,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', end
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .row{
     display: block;
   }
