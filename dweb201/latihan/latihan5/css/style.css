@@ -79,6 +79,9 @@ a:hover{
     font-size: 15px;
 
  }
+ .heading{
+   font-size: 12px;
+ }
  .cardbahan{
    width: 60%;
    overflow: hidden;
