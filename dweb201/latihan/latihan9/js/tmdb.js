@@ -21,7 +21,7 @@ function getListMovie(services, sectiontitle) {
                 <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}"/>
               </div>
             </a>
-              <div class="card-content text-center">
+              <div class="card-content text-center textkecil">
               <strong>Judul:${movie.title}</strong><br>
               <strong>Released : ${movie.release_date}</strong><br>
               <strong>Vote average : ${movie.vote_average}</strong>
@@ -47,8 +47,8 @@ fetch(endpoint_url2 + movie_id + "?api_key=" + key + "&language=en-US&page=1")
   var moviepit = "";
   //ini hanya test nilainya di dapat atau ndak
   moviepit += `
-    <div><strong><h2 class="blue-text text-darken-2">${data.original_title} / ${data.title}</h2></strong><hr></div>
-    <div class="col s12 m4">
+    <div class="juduldetailfilm"><strong><h2 class="blue-text text-darken-2">${data.original_title} / ${data.title}</h2></strong><hr></div>
+    <div class="col s12 m5">
       <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img src="https://image.tmdb.org/t/p/w500${data.poster_path}"/>
@@ -57,15 +57,15 @@ fetch(endpoint_url2 + movie_id + "?api_key=" + key + "&language=en-US&page=1")
     </div>
   <div class="col m7 s12">
 
-  <table class="highlight centered ">
+  <table class="highlight centered">
 
   <thead class="blue-text text-darken-2">
     <tr>
         <th>Nama Film</th>
-        <td>${data.original_title} / ${data.title}</td>
+        <td class="kimochi">${data.title}</td>
     </tr>
     <tr>
-    <th>Tanggal Rilis </th>
+    <th>Tanggal</th>
       <td>${data.release_date}</td>
     </tr>
     <tr>
@@ -90,7 +90,7 @@ fetch(endpoint_url2 + movie_id + "?api_key=" + key + "&language=en-US&page=1")
     </tr>
     <tr>
       <th>Homepage</th>
-      <td><a href="${data.homepage}" class="link black-text">${data.homepage}</a></td>
+      <td class="homepage"><a href="${data.homepage}" class="link black-text">${data.homepage}</a></td>
     </tr>
 
 
