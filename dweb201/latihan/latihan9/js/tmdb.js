@@ -1,6 +1,7 @@
 const key = 'b84ba1eed1088c2b592b82af06e5e700'; //sesuai API Key Anda
 const endpoint_url = 'https://api.themoviedb.org/3/';
 const endpoint_url2 = 'https://api.themoviedb.org/3/movie/';
+const endpoint_url3 = 'https://api.themoviedb.org/3/movie/list';
 
 // Blok kode untuk melakukan request API
 function getListMovie(services, sectiontitle) {
@@ -45,8 +46,68 @@ fetch(endpoint_url2 + movie_id + "?api_key=" + key + "&language=en-US&page=1")
  .then(function(data) {
   var moviepit = "";
   //ini hanya test nilainya di dapat atau ndak
-  moviepit += `  <img src="https://image.tmdb.org/t/p/w500${data.poster_path}"/>
+  moviepit += `
+    <div><strong><h2 class="blue-text text-darken-2">${data.original_title} / ${data.title}</h2></strong><hr></div>
+    <div class="col s12 m4">
+      <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img src="https://image.tmdb.org/t/p/w500${data.poster_path}"/>
+      </div>
+    </div>
+    </div>
+  <div class="col m7 s12">
 
+  <table class="highlight centered ">
+
+  <thead class="blue-text text-darken-2">
+    <tr>
+        <th>Nama Film</th>
+        <td>${data.original_title} / ${data.title}</td>
+    </tr>
+    <tr>
+    <th>Tanggal Rilis </th>
+      <td>${data.release_date}</td>
+    </tr>
+    <tr>
+      <th>Budget</th>
+      <td>$ ${data.budget}</td>
+    </tr>
+    <tr>
+      <th>Bahasa</th>
+      <td> ${data.original_language}</td>
+    </tr>
+    <tr>
+      <th>Pendapatan</th>
+      <td>$ ${data.revenue}</td>
+    </tr>
+    <tr>
+      <th>Durasi Film</th>
+      <td> ${data.runtime} Menit</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <td> ${data.status}</td>
+    </tr>
+    <tr>
+      <th>Homepage</th>
+      <td><a href="${data.homepage}" class="link black-text">${data.homepage}</a></td>
+    </tr>
+
+
+
+
+  </thead>
+  <tbody class=" blue-text text-darken-2">
+
+  </tbody>
+</table>
+<div class="col m12 s12 blue-text text-darken-2 sinopsis" style="border:2px;">
+
+  <h3>Sinopsis Cerita </h3>
+  <p>${data.overview}</p>
+</div>
+
+  </div>
 
 
 `;
