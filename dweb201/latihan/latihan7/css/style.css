@@ -53,15 +53,30 @@ p {
 
     font-size: 35px;
   }
-
-}
-
-@media only screen and (max-width : 700px) {
-  #index-banner .section {
-    top: 0;
+  a.resep{
+    font-size: 18px;
+  }
+  h4.judulresep{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  h3.judulresep{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .resepfont p{
+    text-align: justify;
+  }
+  .resepbahan li{
+    text-align: center;
+    padding: 3px;
   }
 
 }
+
+
 
 .icon-block {
   padding: 0 15px;
@@ -78,4 +93,10 @@ footer.page-footer {
 }
 .redchef-text {
   color: #ef5350 ;
+}
+@media only screen and (max-width : 700px) {
+  #index-banner .section {
+    top: 0;
+  }
+
 }
