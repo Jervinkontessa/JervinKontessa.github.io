@@ -24,10 +24,19 @@ p {
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+  
+
+
+}
+.parallax img{
+  height: 100%;
+
 }
   .parallax-container .section {
     width: 100%;
+
   }
+
   .htext{
     font-family: 'Oswald', sans-serif;
     color:#ffffff ;
@@ -52,6 +61,11 @@ p {
   .htext{
 
     font-size: 35px;
+  }
+  .parallax img{
+  width: 100%;
+  height: 70%;
+
   }
 
 }
