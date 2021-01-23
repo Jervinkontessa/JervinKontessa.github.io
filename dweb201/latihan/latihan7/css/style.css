@@ -33,6 +33,23 @@ p {
     color:#ffffff ;
     font-size: 50px;
   }
+  .cardbahan {
+    border-radius: 15px;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .card-image{
+   border-radius: 15px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .heading{
+   text-align: center;
+    
+
+ }
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
