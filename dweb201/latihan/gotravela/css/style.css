@@ -1,0 +1,343 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+body{
+  font-family: 'Maven Pro', sans-serif;
+}
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.gambar img{
+  border-radius: 75%;
+  margin-left: 20%;
+  width: 45%;
+}
+#layanan{
+  padding-top: 40%;
+}
+#LOGO{
+  width: 20%;
+  margin: 4px;
+}
+#header{
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+#LOGO{
+    width: 40%;
+    margin-left: 28%;
+  }
+  #header{
+    font-size: 20px;
+  }
+  #layanan{
+    padding-top: 60%;
+
+  }
+  #aboutweb{
+    padding-top: 60%;
+  }
+
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.fontartikel{
+  font-family			: Verdana, Tahoma, Helvetica;
+  font-size: 12px;
+}
+.artikel{
+	padding 			: 5px;
+	width				: 60%;
+	height				: 65%;
+	background-color 	: #ba7584;
+	position 			: relative;
+	margin-top			: 40px;
+  margin-bottom:  40px;
+  float: left;
+  margin-left: 12px;
+}
+.isiartikel {
+	background-color	: #bc9d64;
+	width				: 98%;
+	height				: auto;
+	margin-bottom		: 5px;
+	padding				: 10px;
+}
+.isiartikel h2 {
+	font-size			: 20px;
+	font-weight `		: bold;
+	color 				: #ffffff;
+	margin-top			: 4px;
+	margin-bottom		: 3px;
+}
+.isiartikel h3 {
+	font-size			: 12px;
+
+}
+
+.gambardepan{
+	float				: left;
+	height				: 200px;
+	width 				: 250px;
+	margin-right		: 5px;
+	margin-top 			: 3px;
+	padding 			: 1px;
+	border 				: 1px solid #dddddd;
+}
+
+.isiartikel a{
+	text-decoration		: none;
+}
+.isiartikel a:hover{
+	color				: green;
+}
+#sidebar{
+	padding 			: 5px;
+  margin-right: 25px;
+	width				: 27%;
+	background-color	: #d3beaa;
+	position 			: relative;
+	float				: right;
+  margin-top: 5%;
+	/*memberikan garis putus-putus*/
+	border-style		: dotted;
+	border-width		: 1px;
+
+}
+.widged{
+	width				: 99%;
+	background-bottom	: 5px;
+	background 			: #ffffff;
+	border-top 			: 1px solid #DFDFDF;
+	border-bottom		: 1px solid #DFDFDF;
+	border-right  		: 1px solid #DFDFDF;
+	border-left			: 1px solid #DFDFDF;
+	font-size			: 100%;
+	margin 				: 0px 0px 5px 0px;
+
+
+}
+.forartikel{
+  float: none;
+  width: 100%;
+}
+.gmbr img{
+  height: 180px;
+}
+.judulwidged{
+	background 			: #d74006;
+	padding 			: 5px 10px 5px 10px;
+	margin 				: 0px 0px 0px 0px;
+	text-align			: center;
+	color				: white;
+	font-weight			: bold;
+	font-size			: 15px;
+	margin-bottom		: 5px;
+}
+.widged ul {
+	margin 				: 0px 0px 0px 0px;
+	padding 			: 0px 0px 0px 0px;
+	list-style-type		: none;
+}
+.widged li {
+	padding 			: 0px 0px 0px 0px; 		/*top right bottom left*/
+	background-position	: left;
+	background-repeat	: no-repeat;
+	color				: #333333;
+}
+.widged li a {
+	color 				: #333333;
+	border-bottom		: 1px dotted #cccccc;
+	text-decoration		: none;
+	display  			: block;
+	margin-bottom		: 5px;
+	padding 			: 4px 5px 3px 10px;
+}
+.widged li a:hover {
+	color 				: blue;
+}
+.footer{
+
+	width: 100%;
+
+  margin-top:100%
+}
+
+#pagination{
+  padding-left:30%;
+}
+.layout{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color	: #bc9d64;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  float: left;
+  width: 60%;
+  margin-bottom: 20px;
+
+}
+.aside{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  float: right;
+  width: 35%;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.fotoaside{
+  padding-top: 2%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 54%;
+
+}
+.gambaraside{
+  width: 450px;
+
+}
+#informasi{
+
+
+  float: right;
+  width: 100%;
+  padding-right: 2%;
+  padding: 2%;
+}
+#info{
+  text-align: center;
+}
+#sumber{
+  padding: 4%;
+  padding-left: 18%;
+}
+.isi p{
+  padding: 4px;
+  text-align: justify;
+}
+.isiartikel a{
+  color: white;
+  font-weight: bold;
+}
+@media only screen and (max-width : 1000px) {
+  #index-banner .section {
+    top: 0;
+  }
+  #LOGO{
+      width: 38%;
+      margin-left: 25%;
+    }
+    #header {
+      font-size: 20px;
+    }
+    #layanan{
+      padding-top: 0%;
+
+    }
+    #aboutweb{
+      padding-top: 0%;
+    }
+    #sidebar {
+      display: none;
+      width: 0%;
+    }
+
+    .artikel{
+      width: 90%;
+      margin-left: 20px;
+      margin-right: 30px;
+    }
+    .isiartikel{
+      width: 100%;
+    }
+    .isiartikel h2{
+      font-size: 12px;
+    }
+    .isiartikel img{
+      width: 100%;
+      height: 340px;;
+    }
+    #pagination{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .layout{
+
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 8px;
+    float: none;
+    width: 100%;
+
+    }
+    .isi p{
+      padding: 0px;
+      padding-right: 30px;
+      text-align: justify;
+    }
+    .aside{
+      border-radius: 0px;
+      box-shadow: 0;
+      width: 99%;
+      display: none;
+
+      float: none;
+    }
+    #informasi{
+      float: none;
+      width: 80%;
+      padding: 3%;
+    }
+
+    .gambaraside{
+      width: 85%;
+    }
+
+}
