@@ -361,15 +361,6 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  background-image: url("../img/hero-bg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right top;
-  margin-top: 70px;
-  padding: 60px 0;
-}
 
 #hero h1 {
   margin: 0 0 10px 0;
