@@ -37,6 +37,9 @@ p {
   body {
     width: fit-content;
   }
+  .cta p {
+    text-align: center;
+  }
 }
 .portfolio .portfolio-wrap img {
   height: 300px;
