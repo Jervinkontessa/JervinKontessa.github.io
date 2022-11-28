@@ -32,6 +32,12 @@ p {
     text-align: center;
   }
 }
+
+@media (max-width: 500px) {
+  body {
+    width: fit-content;
+  }
+}
 .portfolio .portfolio-wrap img {
   height: 300px;
   width: 500px;
