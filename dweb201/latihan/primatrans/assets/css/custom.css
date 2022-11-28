@@ -35,12 +35,14 @@ p {
 
 @media (max-width: 500px) {
   body {
-    width: fit-content;
-    min-width: 100%; /* because the content might only be a few words */
+    min-width: fit-content;
     box-sizing: border-box;
   }
   .cta p {
     text-align: center;
+  }
+  .navbar {
+    margin-right: 3vw;
   }
 }
 .portfolio .portfolio-wrap img {
