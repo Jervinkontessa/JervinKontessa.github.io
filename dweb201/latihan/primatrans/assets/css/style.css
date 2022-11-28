@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@-ms-viewport {
+  width: device-width;
+}
 body {
   font-family: "OpenSauceOne", sans-serif;
   color: #444444;
