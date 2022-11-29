@@ -55,3 +55,41 @@ p {
 .btn-wa-cta {
   padding-left: 5px;
 }
+
+.whatsapp-btn {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 70px;
+  z-index: 996;
+  background: #00a859;
+  width: 40px;
+  height: 40px;
+  border-radius: 19px;
+  transition: all 0.4s;
+}
+
+.whatsapp-btn i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.whatsapp-btn:hover {
+  background: #00a859;
+  color: #fff;
+}
+
+.whatsapp-btn.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.close {
+  background: none;
+  border: 0;
+}
+.close span {
+  font-size: 28px;
+}
