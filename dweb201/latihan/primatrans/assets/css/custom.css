@@ -37,6 +37,9 @@ img.img.kontakimg {
   }
 }
 
+.blog-wrap {
+  padding-top: 0px;
+}
 @media (max-width: 500px) {
   body {
     min-width: fit-content;
@@ -50,6 +53,9 @@ img.img.kontakimg {
   }
   img.img.kontakimg {
     width: 100%;
+  }
+  .blog-wrap {
+    padding-top: 50px;
   }
 }
 .portfolio .portfolio-wrap img {
@@ -153,7 +159,6 @@ img.img.kontakimg {
   line-height: 24px;
   margin-bottom: 20px;
   text-transform: capitalize;
-  font-weight: normal;
   letter-spacing: 0;
   font-size: 16px;
 }
@@ -174,7 +179,6 @@ img.img.kontakimg {
 }
 
 #blog .block-blog .content-blog a.readmore {
-  color: black;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
@@ -183,6 +187,13 @@ img.img.kontakimg {
   text-transform: capitalize;
 }
 
-#blog .block-blog .content-blog a.readmore:hover {
-  color: #f9b34a;
+.btn-round {
+  background: #f9b34a;
+  color: #fff;
+  border-color: #f9b34a;
+}
+.btn-round:hover {
+  background: #e12454;
+  border-color: #e12454;
+  color: #fff;
 }
